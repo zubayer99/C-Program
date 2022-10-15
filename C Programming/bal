@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int  vajok, vajjo, vagfol, x, vagsesh;
+
+    printf("Enter vajok:");
+
+    scanf("%d", &vajok);
+
+
+    printf("Enter vajjo:");
+
+    scanf("%d", &vajjo);
+
+
+    vagfol = vajjo / vajok;
+
+
+    x = vajjo - vagfol;
+
+
+    vagsesh = vajjo - x;
+
+    printf("Vagsesh holo: %d\n", vagsesh);
+
+    return 0;
+
+}
